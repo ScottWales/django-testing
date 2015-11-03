@@ -20,7 +20,7 @@ from setuptools import setup, find_packages
 import meta
 
 setup(
-    name             = 'django-test',
+    name             = 'mysite',
     version          = meta.version,
     packages         = find_packages(),
     install_requires = [
