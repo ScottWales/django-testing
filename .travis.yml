@@ -4,11 +4,11 @@ python:
   - '3.4'
 
 install:
-    pip install --upgrade pytest coverage codecov
-    pip install .
+  - pip install --upgrade pytest coverage codecov
+  - pip install .
 
 script:
-    coverage run -m py.test
+  - coverage run -m py.test
 
 after_success:
-    codecov
+  - codecov
